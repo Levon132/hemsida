@@ -1,0 +1,76 @@
+body {
+    background-image: url("./Arena2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    backdrop-filter: blur(0,25);
+    margin: 0;
+}
+
+h1 {
+    background-color: white;
+    text-align: center;
+    margin: 0;
+    padding: 30px;
+}
+
+.galleri 
+{
+    display: grid;
+    width: 80%;
+    margin: auto;
+    gap: 200px;
+    
+}
+
+.galleri img {
+    width: 100%;
+    transition: all 500ms;
+}
+
+
+
+.galleri2
+{
+    display: grid;
+    width: 50%;
+    margin-left: auto;
+    
+}
+
+
+.galleri2 img
+{
+    width: 50%;
+    
+}
+
+img:hover {
+    transform: scale(0.8);
+    
+}
+
+nav {
+    background-color: red;
+    line-height: 2;
+    padding: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 666;
+}
+
+nav a {
+    color: white;
+    margin-right: 25px;
+}
+
+footer
+{
+    background-color: rgb(82, 80, 80);
+    padding-top: 60px;
+    padding-bottom: 30px;
+    text-align: center;
+    color: white;
+
+}
+
